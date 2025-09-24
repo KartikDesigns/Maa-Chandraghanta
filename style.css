@@ -1,0 +1,65 @@
+/* ===== General Body ===== */
+body {
+  background-color: #fff9f0;  /* warm ivory, serene */
+  color: #5c5c70;            /* neutral gray */
+  font-family: 'Newsreader', serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* ===== Dark Mode ===== */
+.dark-mode {
+  background-color: #1a1a1d; /* meditative dark */
+  color: #f7f7f7;
+}
+
+/* ===== Section Styling ===== */
+section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+section:nth-child(even) {
+  background-color: #fff3d6; /* golden blush aura */
+}
+
+/* Header Section */
+header#home {
+  background: linear-gradient(to bottom, #fff9f0, #fff3d6);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* ===== Decorative Divider (sacred aura) ===== */
+.floral-border {
+  width: 160px;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #e68a00, transparent);
+  margin: 0.75rem auto 1rem;
+  border-radius: 3px;
+}
+
+/* ===== Scroll to Top Button ===== */
+#goTopBtn {
+  background: #e68a00;
+  color: #fff;
+}
+#goTopBtn:hover {
+  background: #d97706;
+  box-shadow: 0 0 12px rgba(230, 138, 0, 0.7);
+}
+
+/* ===== Headings ===== */
+h1, h2, h3, h4, h5, h6 {
+  color: #c96f00 !important;  /* saffron devotion */
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* ===== Links ===== */
+a {
+  color: #e68a00;
+  text-decoration: none;
+}
+
