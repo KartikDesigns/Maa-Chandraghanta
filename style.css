@@ -8,12 +8,6 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* ===== Dark Mode ===== */
-.dark-mode {
-  background-color: #1a1a1d; /* meditative dark */
-  color: #f7f7f7;
-}
-
 /* ===== Section Styling ===== */
 section {
   padding-top: 1.5rem;
@@ -63,3 +57,22 @@ a {
   text-decoration: none;
 }
 
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff9f0; /* light mode track */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e68a00; /* saffron/golden thumb */
+  border-radius: 6px;
+  border: 3px solid #fff9f0; /* padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706; /* hover effect */
+}
